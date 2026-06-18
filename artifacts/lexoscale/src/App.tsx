@@ -94,9 +94,9 @@ function App() {
 
             <FadeIn delay={0.1}>
               <h1 className="text-6xl md:text-7xl lg:text-[90px] font-extrabold tracking-tight text-white mb-8 leading-[1.05]">
-                Growing Law Firms.{" "}
+                The Only Growth Layer{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-300 via-purple-400 to-primary">
-                  Delivering Results.
+                  For Your Law Firm.
                 </span>
               </h1>
             </FadeIn>
@@ -158,7 +158,6 @@ function App() {
           <div className="max-w-7xl mx-auto px-8">
             <FadeIn>
               <div className="text-center mb-20">
-                <p className="text-xs tracking-[0.3em] uppercase text-primary/80 font-semibold mb-4">Sound Familiar?</p>
                 <h2 className="text-4xl md:text-6xl font-bold">
                   The Reality For{" "}
                   <span className="text-white/35">Most Law Firms</span>
@@ -206,6 +205,12 @@ function App() {
                 </FadeIn>
               ))}
             </div>
+
+            <FadeIn delay={0.4}>
+              <div className="text-center mt-16">
+                <p className="text-2xl md:text-3xl font-bold text-white/60 italic">Sound familiar?</p>
+              </div>
+            </FadeIn>
           </div>
         </section>
 
@@ -281,18 +286,18 @@ function App() {
 
                 <div className="relative z-10">
                   <p className="text-xs tracking-[0.3em] uppercase text-primary font-bold mb-8">The LexoScale Guarantee</p>
-                  <h2 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white mb-6 tracking-tight leading-[1.05]">
-                    10+ Qualified Client Leads
-                    <br />
+                  <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 tracking-tight leading-[1.1]">
+                    We Guarantee To Get You{" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-300 to-primary">
-                      in 60 Days
-                    </span>
+                      25+ Qualified Enquiries
+                    </span>{" "}
+                    Under 60 Days. All Done For You.
                   </h2>
                   <h3 className="text-2xl md:text-3xl font-semibold text-white/60 mb-10">
-                    Or We Refund the Difference
+                    If We Don't Deliver. We Refund The Difference.
                   </h3>
                   <p className="text-lg text-white/40 mb-14 max-w-xl mx-auto leading-relaxed">
-                    Most law firms rely on referrals. We build you a predictable systemised lead engine. If we fall short of 10 qualified enquiries in 60 days you do not pay for every lead we miss. No results. No fee.
+                    Most law firms rely on referrals. We build you a predictable systemised AI powered lead engine. If we fall short of 25 qualified enquiries in 60 days you do not pay for every lead we miss. No results. No fee.
                   </p>
                   <a
                     href="https://calendly.com/admin-lexoscale/30min"
@@ -317,8 +322,14 @@ function App() {
                 <img src="/logo.png?v=4" alt="LexoScale" className="h-9 w-auto object-contain" />
               </div>
               <p className="text-xs tracking-[0.3em] uppercase text-primary/70 font-semibold mb-8">About LexoScale</p>
-              <p className="text-2xl md:text-3xl font-medium leading-relaxed text-white/80">
+              <p className="text-2xl md:text-3xl font-medium leading-relaxed text-white/80 mb-8">
                 LexoScale is a specialist marketing agency exclusively focused on law firms. We help legal practices replace unpredictable referrals with a consistent systemised client acquisition engine using Google and automation.
+              </p>
+              <p className="text-lg text-white/45 leading-relaxed max-w-3xl mx-auto mb-6">
+                We built LexoScale because we kept seeing the same problem. Talented lawyers with excellent practices who could not grow because they had no reliable way to attract new clients. They were entirely dependent on who happened to call them that month. We believe every good law firm deserves a full pipeline not because of luck but because of a system.
+              </p>
+              <p className="text-lg text-white/45 leading-relaxed max-w-3xl mx-auto">
+                Everything we do is built around one outcome: getting your firm in front of people who need a lawyer right now and making sure they choose you. We handle the visibility the authority and the capture. You handle the clients.
               </p>
             </FadeIn>
           </div>
