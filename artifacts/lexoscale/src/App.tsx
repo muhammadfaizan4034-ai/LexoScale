@@ -58,17 +58,17 @@ function App() {
     <div className="min-h-[100dvh] bg-black text-white font-sans overflow-x-hidden selection:bg-primary/30 selection:text-white">
       {/* Sticky Nav */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-black/60 backdrop-blur-xl border-b border-white/5 transition-all duration-300">
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <a href="#" className="flex items-center gap-3 group">
+        <div className="max-w-7xl mx-auto px-6 h-28 flex items-center justify-center relative">
+          <a href="#" className="flex items-center justify-center group">
             <img
               src="/logo.png"
               alt="LexoScale Logo"
-              className="h-8 w-auto group-hover:opacity-80 transition-opacity"
+              className="h-24 w-auto group-hover:opacity-80 transition-opacity"
             />
           </a>
           <a
             href="#cta"
-            className="hidden sm:inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground shadow-[0_0_15px_rgba(124,58,237,0.3)] hover:shadow-[0_0_25px_rgba(124,58,237,0.6)] transition-all duration-300"
+            className="absolute right-6 hidden sm:inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground shadow-[0_0_15px_rgba(124,58,237,0.3)] hover:shadow-[0_0_25px_rgba(124,58,237,0.6)] transition-all duration-300"
           >
             Book A Free Strategy Call
           </a>
