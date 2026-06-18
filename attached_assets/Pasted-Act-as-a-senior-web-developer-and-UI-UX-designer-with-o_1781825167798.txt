@@ -1,0 +1,107 @@
+Act as a senior web developer and UI/UX designer with over 10 years of experience building premium, high converting websites for marketing agencies. You have an exceptional eye for modern, minimal, luxury aesthetic design.
+
+I need you to build a single page professional website for my marketing agency.
+
+Agency name: LexoScale
+
+Tagline: Growing Law Firms. Delivering Results.
+
+What we do: LexoScale is a specialist marketing agency that exclusively works with UK law firms. We help small to medium sized law firms get more clients consistently from Google by combining Google Local Service Ads, Google Business Profile optimisation, review generation systems, and automated lead response. Most law firms rely entirely on unpredictable referrals and word of mouth, have weak online visibility, and lose potential clients because they respond too slowly to enquiries. We solve all three of these problems with one done for you system.
+
+Our core offer: We guarantee UK law firm owners 10 plus qualified enquiries within 60 days using our AI powered Google Acquisition System, or we refund the difference for every enquiry we fall short on. No enquiries, no fee.
+
+Our 3 step methodology, call this section How It Works:
+
+Step 1, Visibility: We optimise your Google Business Profile and set up Google Local Service Ads so your firm appears at the very top when local people search for a solicitor.
+
+Step 2, Authority: We build a consistent review generation system so your firm builds trust and gets chosen over competitors.
+
+Step 3, Capture: We set up automated instant response systems so every single enquiry gets a reply within minutes, ensuring no potential client is ever lost to a competitor.
+
+Design requirements: The colour scheme must be black background with white and purple accents to match my existing logo, which uses a sleek silver white and purple gradient design with the initials LS. The website should feel premium, modern, minimal, and trustworthy, similar to high end SaaS or consulting websites. Use clean sans serif typography. Include subtle purple gradient accents on buttons and section dividers. Avoid generic stock photos, use clean typography and shapes instead.
+
+Sections needed in this exact order:
+1. Hero section
+
+Include:
+
+Agency name
+Tagline
+One sentence value proposition:
+“We help UK law firms consistently generate high-quality client enquiries from Google using a fully managed acquisition system.”
+A clear call to action button: Book A Free Strategy Call
+
+This button must:
+
+Link to or scroll to the final Calendly section
+Use this URL if linking directly:
+https://calendly.com/admin-lexoscale/30min
+2. Problem section (title: “The Reality For Most Law Firms”)
+
+List:
+
+Unpredictable referrals
+Weak Google visibility
+Slow response losing potential clients
+
+Make it feel slightly uncomfortable and truth-driven, not generic marketing fluff.
+
+3. Solution section (title: “Our Process”)
+
+Show the 3 steps:
+
+Visibility
+Authority
+Capture
+
+Make it visually structured and easy to scan.
+
+4. Guarantee section
+
+Make this highly prominent and visually bold:
+
+“10+ Qualified Client Enquiries in 60 Days or We Refund the Difference”
+
+This is the primary conversion driver, so it should stand out more than any other section.
+
+5. About section
+
+2–3 sentences:
+LexoScale is a specialist marketing agency exclusively focused on UK law firms. We help legal practices replace unpredictable referrals with a consistent, systemised client acquisition engine using Google and automation.
+
+6. Final Call To Action section
+
+Include TWO options:
+
+Embedded Calendly booking widget
+Use this exact inline embed (do not modify URL):
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget"
+     data-url="https://calendly.com/admin-lexoscale/30min"
+     style="min-width:320px;height:700px;">
+</div>
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+A secondary button:
+Text: “Email Us Instead”
+Mailto: hello@lexoscale.com
+Subject line: Enquiry From Website
+Design requirements:
+Black background
+White + purple gradient accents
+Minimal, premium SaaS-style design
+No stock photos
+Clean typography
+Strong spacing and hierarchy
+Subtle hover animations with purple glow on buttons
+Mobile responsive
+Critical instructions:
+Do NOT replace Calendly with a form
+Do NOT remove script tags
+Do NOT simplify or “clean up” embedded code
+This is production code and must be preserved exactly
+Why this version is better (no nonsense):
+Forces real Calendly embed (no fake forms)
+Prevents Replit AI from deleting scripts
+Improves conversion hierarchy (guarantee is now dominant)
+Makes CTA structure intentional instead of random
