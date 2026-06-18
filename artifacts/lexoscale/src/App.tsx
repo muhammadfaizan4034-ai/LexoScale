@@ -61,9 +61,9 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 h-28 flex items-center justify-center relative">
           <a href="#" className="flex items-center justify-center group">
             <img
-              src="/logo.png"
+              src="/logo.png?v=3"
               alt="LexoScale Logo"
-              className="h-24 w-auto group-hover:opacity-80 transition-opacity"
+              className="h-32 w-auto group-hover:opacity-80 transition-opacity"
             />
           </a>
           <a
