@@ -103,7 +103,7 @@ function App() {
 
             <FadeIn delay={0.2}>
               <p className="text-xl md:text-2xl text-white/50 max-w-2xl mx-auto mb-12 leading-relaxed font-light">
-                We help law firms generate consistent qualified inquiries using our fully managed AI powered acquisition system.
+                We help law firms generate consistent qualified enquiries using our fully managed AI powered acquisition system.
               </p>
             </FadeIn>
 
@@ -136,7 +136,7 @@ function App() {
           <div className="max-w-5xl mx-auto px-8">
             <div className="grid grid-cols-3 gap-8 text-center">
               {[
-                { value: "25+", label: "Qualified Inquiries Guaranteed" },
+                { value: "25+", label: "Qualified Enquiries Guaranteed" },
                 { value: "60", label: "Days to First Results" },
                 { value: "100%", label: "Risk Free Guarantee" },
               ].map((stat, i) => (
