@@ -103,7 +103,7 @@ function App() {
 
             <FadeIn delay={0.2}>
               <p className="text-xl md:text-2xl text-white/50 max-w-2xl mx-auto mb-12 leading-relaxed font-light">
-                We help law firms consistently generate high-quality client leads from Google using a fully managed acquisition system.
+                We help law firms generate consistent qualified inquiries using our fully managed AI powered acquisition system.
               </p>
             </FadeIn>
 
@@ -136,7 +136,7 @@ function App() {
           <div className="max-w-5xl mx-auto px-8">
             <div className="grid grid-cols-3 gap-8 text-center">
               {[
-                { value: "10+", label: "Qualified Leads Guaranteed" },
+                { value: "25+", label: "Qualified Inquiries Guaranteed" },
                 { value: "60", label: "Days to First Results" },
                 { value: "100%", label: "Risk Free Guarantee" },
               ].map((stat, i) => (
@@ -187,7 +187,7 @@ function App() {
                 },
               ].map((item, i) => (
                 <FadeIn key={i} delay={i * 0.12} direction="up">
-                  <div className="group relative h-full bg-[#0a0a0a] border border-white/[0.07] rounded-2xl p-8 hover:border-primary/40 transition-all duration-500 overflow-hidden">
+                  <div className="group relative h-full border border-transparent rounded-2xl p-8 hover:border-primary/20 transition-all duration-500 overflow-hidden">
                     <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                     <div className="absolute -top-6 -right-4 text-[80px] font-black text-white/[0.025] select-none leading-none">
                       {item.number}
@@ -323,13 +323,22 @@ function App() {
               </div>
               <p className="text-xs tracking-[0.3em] uppercase text-primary/70 font-semibold mb-8">About LexoScale</p>
               <p className="text-2xl md:text-3xl font-medium leading-relaxed text-white/80 mb-8">
-                LexoScale is a specialist marketing agency exclusively focused on law firms. We help legal practices replace unpredictable referrals with a consistent systemised client acquisition engine using Google and automation.
+                LexoScale is a specialist acquisition partner working exclusively with law firms.
               </p>
               <p className="text-lg text-white/45 leading-relaxed max-w-3xl mx-auto mb-6">
-                We built LexoScale because we kept seeing the same problem. Talented lawyers with excellent practices who could not grow because they had no reliable way to attract new clients. They were entirely dependent on who happened to call them that month. We believe every good law firm deserves a full pipeline not because of luck but because of a system.
+                We help legal practices move away from inconsistent referrals and build a reliable flow of qualified enquiries from people actively seeking legal support.
               </p>
-              <p className="text-lg text-white/45 leading-relaxed max-w-3xl mx-auto">
-                Everything we do is built around one outcome: getting your firm in front of people who need a lawyer right now and making sure they choose you. We handle the visibility the authority and the capture. You handle the clients.
+              <p className="text-lg text-white/45 leading-relaxed max-w-3xl mx-auto mb-6">
+                LexoScale was created after seeing the same issue across the industry. Strong firms with excellent reputations but no predictable way to generate demand. Growth depended on timing and chance rather than a structured system.
+              </p>
+              <p className="text-lg text-white/45 leading-relaxed max-w-3xl mx-auto mb-6">
+                We believe growth should not be left to unpredictability. It should be consistent measurable and controllable.
+              </p>
+              <p className="text-lg text-white/45 leading-relaxed max-w-3xl mx-auto mb-6">
+                Our focus is simple. Put your firm in front of high intent searchers convert attention into consultation requests and ensure those opportunities are not lost due to poor follow up.
+              </p>
+              <p className="text-lg text-white/60 font-medium leading-relaxed max-w-3xl mx-auto">
+                You focus on delivering legal outcomes. We focus on making sure the right people reach you consistently.
               </p>
             </FadeIn>
           </div>
