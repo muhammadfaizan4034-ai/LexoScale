@@ -1,0 +1,59 @@
+I need you to refactor this project so it can be deployed cleanly on Vercel.
+
+Current problems:
+
+* The project was generated in Replit and contains an extremely large number of files (30,000+).
+* Vercel deployment fails because the Vite configuration requires environment variables such as PORT and BASE_PATH during build time.
+* The project appears to be a monorepo with frontend and backend mixed together.
+* GitHub web upload is impossible because of the number of files.
+
+Tasks:
+
+1. Remove all unnecessary files from the repository:
+
+   * Remove all node_modules directories.
+   * Remove all build artifacts, caches, temporary files, and generated files.
+   * Remove anything that can be regenerated with pnpm install.
+
+2. Make the frontend deployable on Vercel:
+
+   * Frontend should build successfully with `pnpm build`.
+   * Do not require PORT, BASE_PATH, or any server-only environment variables during build.
+   * Use sensible defaults when environment variables are not provided.
+   * Ensure Vite can build without throwing errors.
+
+3. Separate frontend and backend concerns:
+
+   * Frontend should live in a dedicated deployable folder.
+   * Backend should not be imported into Vite config.
+   * Frontend build must not depend on the backend server running.
+
+4. Verify Vercel compatibility:
+
+   * Generate a valid vercel.json if needed.
+   * Specify the correct root directory for deployment.
+   * Specify build command, install command, and output directory.
+   * Ensure all workspace dependencies resolve correctly.
+
+5. Optimize repository structure:
+
+   * Keep only files required for source control.
+   * Ensure the repository can be uploaded to GitHub without including node_modules.
+   * Create or update .gitignore appropriately.
+
+6. After all changes:
+
+   * Tell me exactly which folder should be used as the Vercel Root Directory.
+   * Tell me the Vercel Framework Preset.
+   * Tell me the Build Command.
+   * Tell me the Output Directory.
+   * Tell me every environment variable that must be configured in Vercel.
+
+7. Finally, generate a deployment report that confirms:
+
+   * Frontend builds successfully.
+   * Frontend is Vercel-ready.
+   * No unnecessary files remain.
+   * GitHub upload size has been minimized.
+
+Do not explain what you plan to do. Make the changes and then provide the deployment report.

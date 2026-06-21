@@ -34,6 +34,7 @@ node_modules
 /libpeerconnection.log
 npm-debug.log
 yarn-error.log
+pnpm-debug.log
 testem.log
 /typings
 
@@ -47,3 +48,11 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Vite cache
+.vite/
