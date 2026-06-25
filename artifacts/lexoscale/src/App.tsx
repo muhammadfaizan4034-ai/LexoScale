@@ -219,7 +219,7 @@ function App() {
 
             <FadeIn delay={0.4}>
               <div className="text-center mt-16">
-                <p className="text-2xl md:text-3xl font-bold text-white/60 italic">Sound familiar?</p>
+                <p className="text-2xl md:text-3xl font-bold text-white/60 italic">Sounds familiar?</p>
               </div>
             </FadeIn>
           </div>
@@ -386,7 +386,7 @@ function App() {
           <div className="max-w-7xl mx-auto px-8">
             <FadeIn>
               <div className="text-center mb-16">
-                <p className="text-xs tracking-[0.3em] uppercase text-primary/80 font-semibold mb-4">Get Started</p>
+                <p className="text-sm md:text-base tracking-[0.3em] uppercase text-primary/80 font-bold mb-4">Get Started</p>
                 <h2 className="text-4xl md:text-6xl font-extrabold text-white mb-5">Ready to Fill Your Pipeline?</h2>
                 <p className="text-lg text-white/40">Pick a time below and we will map out your growth strategy on the call.</p>
               </div>
