@@ -5,7 +5,7 @@ import { ArrowRight, Mail, TrendingUp, Eye, Zap } from "lucide-react";
 const NeonArrow = () => (
   <div className="flex justify-center my-6" aria-hidden="true">
     <img
-      src="/arrow.png"
+      src="/arrow.png?v=2"
       alt=""
       className="w-16 h-auto select-none pointer-events-none"
       style={{ filter: "drop-shadow(0 0 12px rgba(124,58,237,0.7))" }}
