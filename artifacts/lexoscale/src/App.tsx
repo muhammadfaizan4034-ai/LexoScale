@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Mail, TrendingUp, Eye, Zap } from "lucide-react";
+import { ArrowRight, Mail, TrendingUp, Eye, Zap, ChevronDown } from "lucide-react";
 
 const CalendlyEmbed = () => {
   useEffect(() => {
@@ -304,7 +304,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     data-testid="guarantee-cta"
-                    className="inline-flex h-16 items-center justify-center rounded-xl bg-white px-12 text-lg font-extrabold text-black tracking-wide shadow-[0_0_40px_rgba(255,255,255,0.15)] hover:shadow-[0_0_60px_rgba(255,255,255,0.3)] hover:bg-gray-100 transition-all duration-300"
+                    className="inline-flex w-full sm:w-auto min-h-[56px] h-auto items-center justify-center rounded-xl bg-white px-8 py-4 text-base sm:text-lg font-extrabold text-black tracking-wide text-center shadow-[0_0_40px_rgba(255,255,255,0.15)] hover:shadow-[0_0_60px_rgba(255,255,255,0.3)] hover:bg-gray-100 transition-all duration-300 whitespace-normal leading-tight"
                   >
                     Claim Your Guarantee. Book A Call.
                   </a>
@@ -315,32 +315,73 @@ function App() {
         </section>
 
         {/* About */}
-        <section id="about" className="py-24 bg-[#060606] border-y border-white/[0.06]">
-          <div className="max-w-4xl mx-auto px-8 text-center">
-            <FadeIn>
-              <div className="w-14 h-14 mx-auto mb-10 flex items-center justify-center rounded-2xl bg-primary/10 border border-primary/20">
-                <img src="/logo.png?v=4" alt="LexoScale" className="h-9 w-auto object-contain" />
-              </div>
-              <p className="text-xs tracking-[0.3em] uppercase text-primary/70 font-semibold mb-8">About LexoScale</p>
-              <p className="text-2xl md:text-3xl font-medium leading-relaxed text-white/80 mb-8">
-                LexoScale is a specialist acquisition partner working exclusively with law firms.
-              </p>
-              <p className="text-lg text-white/45 leading-relaxed max-w-3xl mx-auto mb-6">
-                We help legal practices move away from inconsistent referrals and build a reliable flow of qualified enquiries from people actively seeking legal support.
-              </p>
-              <p className="text-lg text-white/45 leading-relaxed max-w-3xl mx-auto mb-6">
-                LexoScale was created after seeing the same issue across the industry. Strong firms with excellent reputations but no predictable way to generate demand. Growth depended on timing and chance rather than a structured system.
-              </p>
-              <p className="text-lg text-white/45 leading-relaxed max-w-3xl mx-auto mb-6">
-                We believe growth should not be left to unpredictability. It should be consistent measurable and controllable.
-              </p>
-              <p className="text-lg text-white/45 leading-relaxed max-w-3xl mx-auto mb-6">
-                Our focus is simple. Put your firm in front of high intent searchers convert attention into consultation requests and ensure those opportunities are not lost due to poor follow up.
-              </p>
-              <p className="text-lg text-white/60 font-medium leading-relaxed max-w-3xl mx-auto">
-                You focus on delivering legal outcomes. We focus on making sure the right people reach you consistently.
+        <section id="about" className="py-24 md:py-32 bg-[#060606] border-y border-white/[0.06]">
+          <div className="max-w-3xl mx-auto px-8 text-center flex flex-col items-center">
+
+            {/* Illustration */}
+            <FadeIn direction="none">
+              <img
+                src="/about-illustration.png"
+                alt="Chaotic leads flowing through a lens into one clean qualified enquiry"
+                className="w-full max-w-[600px] mx-auto mb-10 select-none pointer-events-none"
+              />
+            </FadeIn>
+
+            {/* Step 1 */}
+            <FadeIn delay={0.1}>
+              <h2 className="text-2xl md:text-3xl font-bold text-white leading-snug max-w-xl mx-auto">
+                We Help Legal Practices Move Away From Inconsistent Leads And Referrals
+              </h2>
+            </FadeIn>
+
+            <FadeIn delay={0.15}>
+              <ChevronDown className="h-8 w-8 text-primary my-6" strokeWidth={1.5} />
+            </FadeIn>
+
+            {/* Step 2 */}
+            <FadeIn delay={0.2}>
+              <p className="text-xl md:text-2xl font-semibold text-primary">
+                We Fix This By Delivering Qualified Enquiries Consistently
               </p>
             </FadeIn>
+
+            <FadeIn delay={0.25}>
+              <ChevronDown className="h-8 w-8 text-primary my-6" strokeWidth={1.5} />
+            </FadeIn>
+
+            {/* Step 3 — Background */}
+            <FadeIn delay={0.3}>
+              <div className="max-w-xl mx-auto">
+                <p className="text-xs tracking-[0.25em] uppercase text-primary/60 font-semibold mb-3">Our Background</p>
+                <p className="text-white/55 text-base md:text-lg leading-relaxed">
+                  LexoScale was created after seeing the same issue across the legal industry, built on firsthand experience working within legal practices.
+                </p>
+              </div>
+            </FadeIn>
+
+            <FadeIn delay={0.35}>
+              <ChevronDown className="h-8 w-8 text-primary my-6" strokeWidth={1.5} />
+            </FadeIn>
+
+            {/* Step 4 — Final headline + CTA */}
+            <FadeIn delay={0.4}>
+              <h2 className="text-3xl md:text-5xl font-extrabold leading-tight mb-8">
+                <span className="text-white">You Focus On Legal.</span>{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-300 to-primary">
+                  We Focus On Marketing.
+                </span>
+              </h2>
+              <a
+                href="https://calendly.com/admin-lexoscale/30min"
+                target="_blank"
+                rel="noreferrer"
+                data-testid="about-cta"
+                className="inline-flex items-center justify-center rounded-xl bg-primary px-10 py-4 text-base font-bold text-white tracking-wide shadow-[0_0_25px_rgba(124,58,237,0.4)] hover:shadow-[0_0_40px_rgba(124,58,237,0.7)] hover:bg-primary/90 transition-all duration-300"
+              >
+                Book A Call Now
+              </a>
+            </FadeIn>
+
           </div>
         </section>
 
