@@ -2,22 +2,23 @@ import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Mail, TrendingUp, Eye, Zap } from "lucide-react";
 
-const FlowArrow = () => (
-  <div className="flex justify-center my-6 overflow-hidden" style={{ height: "70px" }}>
-    <img
-      src="/about-illustration.png"
-      alt=""
-      aria-hidden="true"
-      style={{
-        height: "70px",
-        width: "auto",
-        transform: "rotate(90deg)",
-        opacity: 0.75,
-        filter: "drop-shadow(0 0 10px rgba(124,58,237,0.6))",
-        pointerEvents: "none",
-        userSelect: "none",
-      }}
-    />
+const ZigzagArrow = () => (
+  <div className="flex justify-center my-8" aria-hidden="true">
+    <svg width="40" height="90" viewBox="0 0 40 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <filter id="zag-glow" x="-60%" y="-20%" width="220%" height="140%">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur" />
+          <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+      <g filter="url(#zag-glow)" stroke="#7c3aed" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M 20 2 L 37 24 L 3 46 L 37 68 L 20 82" />
+        <path d="M 11 73 L 20 82 L 29 73" />
+      </g>
+    </svg>
   </div>
 );
 
@@ -337,15 +338,6 @@ function App() {
         <section id="about" className="py-24 md:py-32 bg-[#060606] border-y border-white/[0.06]">
           <div className="max-w-3xl mx-auto px-8 text-center flex flex-col items-center">
 
-            {/* Illustration */}
-            <FadeIn direction="none">
-              <img
-                src="/about-illustration.png"
-                alt="Chaotic leads flowing through a lens into one clean qualified enquiry"
-                className="w-full max-w-[600px] mx-auto mb-10 select-none pointer-events-none"
-              />
-            </FadeIn>
-
             {/* Step 1 */}
             <FadeIn delay={0.1}>
               <h2 className="text-2xl md:text-3xl font-bold text-white leading-snug max-w-xl mx-auto">
@@ -353,7 +345,7 @@ function App() {
               </h2>
             </FadeIn>
 
-            <FlowArrow />
+            <ZigzagArrow />
 
             {/* Step 2 */}
             <FadeIn delay={0.2}>
@@ -362,7 +354,7 @@ function App() {
               </p>
             </FadeIn>
 
-            <FlowArrow />
+            <ZigzagArrow />
 
             {/* Step 3 — Background */}
             <FadeIn delay={0.3}>
@@ -374,7 +366,7 @@ function App() {
               </div>
             </FadeIn>
 
-            <FlowArrow />
+            <ZigzagArrow />
 
             {/* Step 4 — Final headline + CTA */}
             <FadeIn delay={0.4}>
