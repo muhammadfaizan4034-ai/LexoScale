@@ -226,14 +226,14 @@ function App() {
         </section>
 
         {/* How It Works */}
-        <section id="how-it-works" className="py-28 md:py-36 bg-[#060606] relative overflow-hidden">
+        <section id="how-it-works" className="pt-12 pb-28 md:pt-14 md:pb-36 bg-[#060606] relative overflow-hidden">
           <div className="absolute right-0 top-1/4 w-[500px] h-[500px] bg-primary/8 blur-[120px] rounded-full pointer-events-none" />
           <div className="absolute left-0 bottom-1/4 w-[300px] h-[300px] bg-primary/5 blur-[100px] rounded-full pointer-events-none" />
 
           <div className="max-w-6xl mx-auto px-8 relative z-10">
             <FadeIn>
               <div className="text-center mb-20">
-                <p className="text-xs tracking-[0.3em] uppercase text-primary/80 font-semibold mb-4">The System</p>
+                <p className="text-sm md:text-base tracking-[0.3em] uppercase text-primary/80 font-bold mb-4">The System</p>
                 <h2 className="text-4xl md:text-6xl font-bold">Our Process</h2>
               </div>
             </FadeIn>
