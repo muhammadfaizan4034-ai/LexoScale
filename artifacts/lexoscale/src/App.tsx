@@ -31,7 +31,7 @@ const CalendlyEmbed = () => {
     <div
       className="calendly-inline-widget w-full rounded-xl overflow-hidden"
       data-url="https://calendly.com/admin-lexoscale/30min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=0a0a0a&text_color=ffffff&primary_color=7c3aed"
-      style={{ minWidth: "320px", height: "700px" }}
+      style={{ minWidth: "320px", height: "clamp(560px, 80vh, 700px)" }}
     />
   );
 };
