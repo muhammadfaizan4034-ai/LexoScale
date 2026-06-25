@@ -315,7 +315,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     data-testid="guarantee-cta"
-                    className="inline-flex w-full sm:w-auto min-h-[56px] h-auto items-center justify-center rounded-xl bg-white px-8 py-4 text-base sm:text-lg font-extrabold text-black tracking-wide text-center shadow-[0_0_40px_rgba(255,255,255,0.15)] hover:shadow-[0_0_60px_rgba(255,255,255,0.3)] hover:bg-gray-100 transition-all duration-300 whitespace-normal leading-tight"
+                    className="inline-flex w-full sm:w-auto items-center justify-center rounded-xl bg-primary px-8 py-4 text-base font-bold text-white tracking-wide text-center shadow-[0_0_25px_rgba(124,58,237,0.45)] hover:shadow-[0_0_45px_rgba(124,58,237,0.75)] hover:bg-primary/90 transition-all duration-300"
                   >
                     Claim Your Guarantee. Book A Call.
                   </a>
