@@ -1,0 +1,20 @@
+
+“My website is already live and hosted on Vercel, connected through GitHub. This is extremely important: do not break the existing build configuration, do not change the vite.config.ts server settings, do not regenerate the entire project structure, and do not create thousands of new files like last time. Only edit the existing relevant files to make the specific changes below.
+CHANGE 1 — FIX THE BUTTON BUG
+There is a white button at the bottom of the page that says ‘Claim Your Guarantee, Book A Call Now’. On mobile devices the text inside this button is overflowing or being cut off and is completely unreadable. Fix the button sizing so the text fits properly and is fully readable on all screen sizes including small mobile screens. Make the padding, width, and font size responsive so it scales correctly and never gets cut off, no matter the device size.
+CHANGE 2 — REDESIGN THE ABOUT SECTION
+I am uploading a custom illustrated image along with this message. This image shows tangled chaotic lines on the left side, representing inconsistent referrals and unpredictable leads, flowing through a glowing lens and becoming one single clean straight arrow on the right side, representing qualified enquiries. The image I am uploading has a transparent background, so when you place it into the section it should blend naturally into the page background rather than appearing as a separate rectangle or sticker. Make sure the image element itself has no background colour, border, box shadow, or container styling that would make it look boxed in. It should sit directly on the page background and blend seamlessly.
+Completely restructure the current About section, which is currently plain paragraph text, into this exact visual step by step format instead. Do not use long paragraphs anywhere in this new section. Each piece of text must be short and punchy.
+Here is the exact order and content for the new About section, from top to bottom:
+1. At the very top of the section, place the uploaded image, centered, sized appropriately as a clean hero style graphic, not too small and not full page width either. Make sure it scales properly and looks good on both desktop and mobile, and make sure it blends into the background with no visible box or container around it.
+2. Directly below the image, add this headline text: We Help Legal Practices Move Away From Inconsistent Leads And Referrals
+3. Below that headline, add a downward pointing arrow icon or chevron icon, styled in purple to match the brand.
+4. Below that arrow, add this text: We Fix This By Delivering Qualified Enquiries Consistently
+5. Below that text, add another downward pointing arrow icon, same style as before.
+6. Below that arrow, add this text under a small label saying Our Background: LexoScale was created after seeing the same issue across the legal industry, built on firsthand experience working within legal practices.
+7. Below that text, add one final downward pointing arrow icon, same style as before.
+8. Below that final arrow, add a large bold headline using a mix of purple and white text colour, formatted exactly like this: You Focus On Legal. We Focus On Marketing.
+9. Directly below that large headline, add a call to action button that says: Book A Call Now
+Use purple and white as the only colour scheme throughout this section, matching the rest of the website exactly. Use simple, clean downward arrow or chevron icons between each section to visually guide the user down the page, do not use plain text arrows like dashes or arrows typed as characters, use actual icon elements. The entire section should feel like a visual story unfolding step by step as the user scrolls down, not a wall of text. Make sure every element in this section is fully responsive and displays correctly and readably on mobile devices as well as desktop.
+Confirm once both changes are complete and ready to preview.”
+
