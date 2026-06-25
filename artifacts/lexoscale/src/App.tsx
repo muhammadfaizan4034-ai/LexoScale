@@ -8,7 +8,7 @@ const NeonArrow = () => (
       src="/arrow.png?v=2"
       alt=""
       className="w-16 h-auto select-none pointer-events-none"
-      style={{ filter: "brightness(1.7) saturate(1.6) hue-rotate(15deg) drop-shadow(0 0 14px rgba(124,58,237,0.85))" }}
+      style={{ filter: "brightness(0) saturate(100%) invert(38%) sepia(90%) saturate(2500%) hue-rotate(240deg) brightness(110%) drop-shadow(0 0 14px rgba(124,58,237,0.85))" }}
     />
   </div>
 );
@@ -350,7 +350,7 @@ function App() {
             {/* Step 3 — Background */}
             <FadeIn delay={0.3}>
               <div className="max-w-xl mx-auto">
-                <p className="text-xs tracking-[0.25em] uppercase text-primary/60 font-semibold mb-3">Our Background</p>
+                <p className="text-base tracking-[0.25em] uppercase text-primary/80 font-bold mb-3">Our Background</p>
                 <p className="text-white/55 text-base md:text-lg leading-relaxed">
                   LexoScale was created after seeing the same issue across the legal industry, built on firsthand experience working within legal practices.
                 </p>
