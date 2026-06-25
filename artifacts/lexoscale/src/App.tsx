@@ -315,7 +315,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     data-testid="guarantee-cta"
-                    className="inline-flex w-full sm:w-auto items-center justify-center rounded-xl bg-primary px-10 py-4 text-base font-bold text-white tracking-widest text-center shadow-[0_0_12px_rgba(124,58,237,0.35)] hover:shadow-[0_0_20px_rgba(124,58,237,0.55)] hover:bg-primary/90 transition-all duration-300"
+                    className="inline-flex w-full sm:w-auto items-center justify-center rounded-xl bg-primary px-10 py-4 text-base font-bold text-white tracking-widest text-center shadow-[0_0_22px_rgba(124,58,237,0.6)] hover:shadow-[0_0_35px_rgba(124,58,237,0.85)] hover:bg-primary/90 transition-all duration-300"
                   >
                     BOOK YOUR CALL
                   </a>
