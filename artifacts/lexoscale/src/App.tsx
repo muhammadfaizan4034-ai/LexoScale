@@ -409,12 +409,12 @@ function App() {
                       Send us your firm's details and we will come back to you with some initial thoughts on how we would approach your growth.
                     </p>
                     <a
-                      href="mailto:hello@lexoscale.com?subject=Enquiry%20From%20Website"
+                      href="mailto:support@lexoscale.com?subject=Enquiry%20From%20Website"
                       data-testid="email-cta"
-                      className="inline-flex h-12 w-full items-center justify-center rounded-xl border border-white/15 bg-transparent px-6 text-sm font-semibold text-white hover:bg-white/[0.05] hover:border-white/30 transition-all duration-300"
+                      className="inline-flex items-center justify-center gap-2 text-sm text-white/60 hover:text-white/90 transition-colors duration-300"
                     >
-                      <Mail className="mr-2 h-4 w-4" />
-                      Email Us Instead
+                      <Mail className="h-4 w-4 shrink-0 text-primary" />
+                      <span>support@lexoscale.com</span>
                     </a>
                   </div>
                 </FadeIn>
