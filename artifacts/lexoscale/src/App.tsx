@@ -1,6 +1,25 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Mail, TrendingUp, Eye, Zap, ChevronDown } from "lucide-react";
+import { ArrowRight, Mail, TrendingUp, Eye, Zap } from "lucide-react";
+
+const FlowArrow = () => (
+  <div className="flex justify-center my-6 overflow-hidden" style={{ height: "70px" }}>
+    <img
+      src="/about-illustration.png"
+      alt=""
+      aria-hidden="true"
+      style={{
+        height: "70px",
+        width: "auto",
+        transform: "rotate(90deg)",
+        opacity: 0.75,
+        filter: "drop-shadow(0 0 10px rgba(124,58,237,0.6))",
+        pointerEvents: "none",
+        userSelect: "none",
+      }}
+    />
+  </div>
+);
 
 const CalendlyEmbed = () => {
   useEffect(() => {
@@ -334,9 +353,7 @@ function App() {
               </h2>
             </FadeIn>
 
-            <FadeIn delay={0.15}>
-              <ChevronDown className="h-8 w-8 text-primary my-6" strokeWidth={1.5} />
-            </FadeIn>
+            <FlowArrow />
 
             {/* Step 2 */}
             <FadeIn delay={0.2}>
@@ -345,9 +362,7 @@ function App() {
               </p>
             </FadeIn>
 
-            <FadeIn delay={0.25}>
-              <ChevronDown className="h-8 w-8 text-primary my-6" strokeWidth={1.5} />
-            </FadeIn>
+            <FlowArrow />
 
             {/* Step 3 — Background */}
             <FadeIn delay={0.3}>
@@ -359,9 +374,7 @@ function App() {
               </div>
             </FadeIn>
 
-            <FadeIn delay={0.35}>
-              <ChevronDown className="h-8 w-8 text-primary my-6" strokeWidth={1.5} />
-            </FadeIn>
+            <FlowArrow />
 
             {/* Step 4 — Final headline + CTA */}
             <FadeIn delay={0.4}>
