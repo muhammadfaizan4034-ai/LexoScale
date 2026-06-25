@@ -7,8 +7,8 @@ const NeonArrow = () => (
     <img
       src="/arrow.png?v=2"
       alt=""
-      className="w-16 h-auto select-none pointer-events-none"
-      style={{ filter: "brightness(0) saturate(100%) invert(38%) sepia(90%) saturate(2500%) hue-rotate(240deg) brightness(110%) drop-shadow(0 0 14px rgba(124,58,237,0.85))" }}
+      className="w-10 h-auto select-none pointer-events-none"
+      style={{ filter: "brightness(0) saturate(100%) invert(60%) sepia(35%) saturate(500%) hue-rotate(220deg) brightness(90%) drop-shadow(0 0 6px rgba(139,92,246,0.4))" }}
     />
   </div>
 );
