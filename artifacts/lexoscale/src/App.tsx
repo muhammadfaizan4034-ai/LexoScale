@@ -2,23 +2,14 @@ import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Mail, TrendingUp, Eye, Zap } from "lucide-react";
 
-const ZigzagArrow = () => (
-  <div className="flex justify-center my-8" aria-hidden="true">
-    <svg width="40" height="90" viewBox="0 0 40 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <filter id="zag-glow" x="-60%" y="-20%" width="220%" height="140%">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur" />
-          <feMerge>
-            <feMergeNode in="blur" />
-            <feMergeNode in="SourceGraphic" />
-          </feMerge>
-        </filter>
-      </defs>
-      <g filter="url(#zag-glow)" stroke="#7c3aed" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M 20 2 L 37 24 L 3 46 L 37 68 L 20 82" />
-        <path d="M 11 73 L 20 82 L 29 73" />
-      </g>
-    </svg>
+const NeonArrow = () => (
+  <div className="flex justify-center my-6" aria-hidden="true">
+    <img
+      src="/arrow.png"
+      alt=""
+      className="w-16 h-auto select-none pointer-events-none"
+      style={{ filter: "drop-shadow(0 0 12px rgba(124,58,237,0.7))" }}
+    />
   </div>
 );
 
@@ -345,7 +336,7 @@ function App() {
               </h2>
             </FadeIn>
 
-            <ZigzagArrow />
+            <NeonArrow />
 
             {/* Step 2 */}
             <FadeIn delay={0.2}>
@@ -354,7 +345,7 @@ function App() {
               </p>
             </FadeIn>
 
-            <ZigzagArrow />
+            <NeonArrow />
 
             {/* Step 3 — Background */}
             <FadeIn delay={0.3}>
@@ -366,7 +357,7 @@ function App() {
               </div>
             </FadeIn>
 
-            <ZigzagArrow />
+            <NeonArrow />
 
             {/* Step 4 — Final headline + CTA */}
             <FadeIn delay={0.4}>
